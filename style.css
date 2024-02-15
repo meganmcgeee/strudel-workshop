@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #00ff00;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #222;
+    border-bottom: 2px solid #00ff00;
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #61dafb;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.intro, .social, .delve, .from-scratch, .post-hangout {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+pre {
+    background-color: #222;
+    color: #61dafb;
+    padding: 15px;
+    overflow: auto;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #00ff00;
+}
+
+a {
+    color: #61dafb;
+}
+
+.venue {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #00ff00;
+}
